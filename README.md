@@ -1,5 +1,5 @@
-This repository contains multiple frontend projects built using React with Vite, focusing on fast development, optimized builds, and hands-on learning of core React concepts.
-📌 Projects Included:
+This repository contains multiple frontend projects built using React with Vite, focusing on fast development, optimized builds, and hands-on learning of core React concepts.                                   
+📌 Projects Included:                                                                                                                                                                                         
 1️⃣ Single Page Application (SPA)
 
 A simple React-based Single Page Application demonstrating:
