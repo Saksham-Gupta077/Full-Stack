@@ -1,3 +1,0 @@
-- [x] Edit SPA/src/App.jsx to implement the three boxes with counter logic
-- [x] Edit SPA/src/App.css to style the boxes and container
-- [x] Run the development server to test the application
