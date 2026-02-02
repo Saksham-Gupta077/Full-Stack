@@ -1,12 +1,24 @@
-# React + Vite
+# Project Overview
+This is a Full Stack React project showcasing a personal profile dashboard.
+Users can navigate between Home, Profile, and Dashboard pages to explore skills and personal information.
+## Features
+Home Page: Welcome message and profile image.                                                                            
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Profile Page: Animated welcome message.                                                                                         
 
-Currently, two official plugins are available:
+Dashboard Page: Lists core skills (HTML, CSS, JavaScript, React) with easy navigation back to Profile.                                                        
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Routing: Implemented using react-router-dom for seamless navigation.                                                                                            
+## Technologies Used:
 
-## Expanding the ESLint configuration
+React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router
+
+HTML / CSS / JavaScript
+
+## Project Screenshots:
+
+<img width="536" height="434" alt="Screenshot 2026-02-02 141459" src="https://github.com/user-attachments/assets/afb13ebb-e8ff-4372-a385-fe67bbc11ab0" />
+
+<img width="536" height="434" alt="Screenshot 2026-02-02 141520" src="https://github.com/user-attachments/assets/14cebdbe-1204-4c9d-b709-8aad9bc0200b" />
