@@ -1,0 +1,117 @@
+/* Global style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e9ecf5, #f7f7fa);
+  min-height: 100vh;
+}
+
+/* Glass Header */
+.navbar {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #2d2d2d;
+  font-weight: 700;
+}
+
+.navbar nav a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar nav a:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+/* Center content */
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+/* Soft card */
+.card {
+  background: #ffffff;
+  padding: 40px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: slideUp 0.5s ease-out;
+}
+
+.card h2 {
+  color: #222;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 17px;
+  color: #555;
+}
+
+/* Loader (Brand New Style) */
+.loader {
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  margin-top: 30px;
+  animation: pulse 1s infinite;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% { opacity: 0.3; transform: scale(0.98); }
+  50% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.3; transform: scale(0.98); }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.app-header {
+  width: fit-content;
+  margin: 40px auto;        /* centers the header */
+  padding: 15px 35px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #222;
+}
