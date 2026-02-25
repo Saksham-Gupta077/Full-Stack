@@ -1,0 +1,186 @@
+/* ------------------------------ */
+/* GLOBAL STYLING */
+/* ------------------------------ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40, #181826);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+/* ------------------------------ */
+/* FORM CONTAINER */
+/* ------------------------------ */
+form {
+  width: 420px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  padding: 30px 35px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  animation: smoothFade 0.6s ease-in-out;
+}
+
+@keyframes smoothFade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------------------ */
+/* HEADINGS */
+/* ------------------------------ */
+h2 {
+  text-align: center;
+  color: #a5b4fc;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------ */
+/* LABELS */
+/* ------------------------------ */
+label {
+  display: block;
+  font-size: 14px;
+  color: #e0e7ff;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+/* ------------------------------ */
+/* INPUTS / SELECT / TEXTAREA */
+/* ------------------------------ */
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  outline: none;
+  color: #eaf0ff;
+  font-size: 14px;
+  margin-bottom: 18px;
+  transition: 0.2s ease-in-out;
+}
+
+/* Larger Address */
+textarea {
+  resize: none;
+  height: 110px;
+}
+
+/* Glow on focus */
+input:focus,
+textarea:focus,
+select:focus {
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 10px #7dd3fc;
+}
+
+/* ------------------------------ */
+/* DROPDOWN FIX (IMPORTANT) */
+/* ------------------------------ */
+select {
+  background-color: rgba(30, 30, 40, 0.95); /* dark dropdown body */
+  color: #ffffff;
+}
+
+select option {
+  background-color: #2a2a40; /* dropdown item bg */
+  color: #ffffff;
+  padding: 8px;
+}
+
+select option:checked {
+  background-color: #4c4c70;
+}
+
+select option:hover {
+  background-color: #5a5a8a;
+}
+
+/* ------------------------------ */
+/* RADIO + CHECKBOX GROUP */
+/* ------------------------------ */
+.option-group {
+  margin-bottom: 18px;
+}
+
+.option-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.option-group input {
+  transform: scale(1.2);
+  accent-color: #7dd3fc;
+  cursor: pointer;
+}
+
+/* ------------------------------ */
+/* BUTTONS */
+/* ------------------------------ */
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+  letter-spacing: 0.5px;
+}
+
+/* Submit */
+button[type="submit"] {
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+  color: white;
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+}
+
+/* Reset */
+button[type="button"] {
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.20);
+  color: #e0e7ff;
+}
+
+button[type="button"]:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* ------------------------------ */
+/* THANK YOU SCREEN */
+/* ------------------------------ */
+.thank-you {
+  text-align: center;
+  color: #a5b4fc;
+  margin-top: 120px;
+  font-size: 32px;
+  animation: smoothFade 0.8s ease-in-out;
+}
