@@ -41,7 +41,7 @@ In React applications, passing data through multiple components using props can 
 5.  **Consume State**: Use the `useContext()` hook in child components to access the data.
 
 ### Output
-<img width="916" height="673" alt="image" src="https://github.com/user-attachments/assets/71844541-55b0-4fbf-b986-c8114d2965a3" />
+![exp4_image](https://github.com/user-attachments/assets/5d7d064b-a37f-4d6b-ae83-ba7dc8690715)
 
 ---
 
@@ -59,7 +59,8 @@ Redux is a predictable state container for JavaScript applications. It stores th
 4.  **Dispatch & Select**: Used `useSelector` to read the state and `useDispatch` to trigger actions (increment/decrement).
 
 ### Output
-<img width="1058" height="656" alt="image" src="https://github.com/user-attachments/assets/4d05a0db-06a7-45ca-b12b-6a50ea206fe3" />
+![ep42](https://github.com/user-attachments/assets/ef940a97-b843-46a0-86f1-1c6344ce47b5)
+
 
 ---
 
@@ -117,3 +118,4 @@ const dispatch = useDispatch();
 ## 🏁 Conclusion
 
 By completing these experiments, we have mastered how to manage state globally. **Context API** is ideal for simple data like themes or auth states, while **Redux** is preferred for complex logic and large-scale applications with frequent state updates.
+
