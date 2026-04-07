@@ -1,12 +1,62 @@
-# React + Vite
+# 🎓 Student Management System (Full Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack web application built using:
 
-Currently, two official plugins are available:
+- ⚙️ Backend: Spring Boot (Maven)
+- 💻 Frontend: React (Vite)
+- 🔗 API Communication: Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application allows you to manage student data with basic CRUD operations.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✅ Add Student
+- ✅ View All Students
+- ✅ Search Student by ID
+- ✅ Delete Student
+
+---
+
+## 🧱 Tech Stack
+
+### Backend
+- Spring Boot
+- Maven
+- REST APIs
+- JPA / Repository Layer
+
+### Frontend
+- React (Vite)
+- Axios
+- CSS (Inline styling)
+
+---
+
+## 📁 Project Structure
+
+Backend (Eclipse)
+com.AML2A.Rest_api
+├── controller
+├── model
+├── repository
+├── service
+
+Frontend (VS Code)
+student-frontend/
+├── src/
+│ ├── App.jsx
+│ ├── api.js
+│ └── main.jsx
+
+# 🖼️ Screenshots
+## 📌 UI - Main Dashboard
+
+<img width="1842" height="743" alt="Screenshot 2026-04-07 122213" src="https://github.com/user-attachments/assets/3676a385-f4c6-47b4-86c5-dc08a5c111c8" />
+
+## 📌 Database Stored
+
+<img width="800" height="350" alt="Screenshot 2026-04-07 121936" src="https://github.com/user-attachments/assets/953c8f0b-8990-49fa-8b35-88ae6efbc36c" />
+
+
